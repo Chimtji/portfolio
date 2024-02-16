@@ -16,7 +16,7 @@ type TProps = {
   warpspeed: boolean;
 };
 
-const _Particle: React.FC<TProps> = ({ curve, warpspeed }) => {
+const Particle: React.FC<TProps> = ({ curve, warpspeed }) => {
   const ref = useRef<InstancedMesh<
     BufferGeometry<NormalBufferAttributes>,
     Material | Material[],
@@ -68,4 +68,4 @@ const _Particle: React.FC<TProps> = ({ curve, warpspeed }) => {
   );
 };
 
-export const Particle = memo(_Particle);
+export default memo(Particle);

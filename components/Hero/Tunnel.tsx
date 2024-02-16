@@ -6,7 +6,7 @@ import gsap from "gsap";
 import { applyTexture, createTunnelCurve, initWarpSpeed } from "./helpers";
 import { MeshBasicMaterial, TubeGeometry } from "three";
 import { TCalculations, TTextureParams, TTunnelProps } from "./types";
-import { Particle } from "./Particles";
+import Particle from "./Particle";
 
 const Tunnel: React.FC<TTunnelProps> = ({
   playing,
