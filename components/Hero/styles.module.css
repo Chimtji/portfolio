@@ -1,0 +1,37 @@
+.content {
+  position: relative !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.canvasBorder {
+  position: absolute !important;
+  width: 100% !important;
+  height: 100% !important;
+  top: 0 !important;
+  left: 0 !important;
+  pointer-events: none !important;
+}
+
+.canvasUi {
+  position: absolute !important;
+  width: 20em !important;
+  height: 5em !important;
+  bottom: 0 !important;
+  right: 0 !important;
+}
+.canvasNavbar {
+  position: absolute !important;
+  width: 20em !important;
+  height: 5em !important;
+  right: 0 !important;
+  top: 0 !important;
+}
+.canvasTagline {
+  pointer-events: none !important;
+  position: absolute !important;
+  width: 20em !important;
+  height: 5em !important;
+  left: 0 !important;
+  bottom: 0 !important;
+}
